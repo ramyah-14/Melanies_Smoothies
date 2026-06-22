@@ -1,0 +1,9 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: CustomSmoothieOrder.py
+    artifacts:
+      - pyproject.toml
+      - CustomSmoothieOrder.py
+      - .streamlit/config.toml
